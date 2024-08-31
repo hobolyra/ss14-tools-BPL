@@ -68,11 +68,12 @@ function renderSearchResults(results) {
 }
 
 function runSearch(fuse, json, searchText) {
-    const searchResults = fuse.search(searchText)
+    // Data is in CamelCase so spaces are harmful for searching right now.
+    const cleanedSearchText = searchText.replace(/\s/g, "");
+    const searchResults = fuse.search(cleanedSearchText)
     // Fuse will not show entire list if nothing searched :(
     // https://github.com/krisk/Fuse/issues/229
-    console.log(searchText)
-    const results = searchText.length > 0
+    const results = cleanedSearchText.length > 0
         ? searchResults
         : json.map(item => ({item: item}))
     renderSearchResults(results)
