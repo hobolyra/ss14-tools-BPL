@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS14 Drinks</title>
+    <title>SS14 Chemist</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 
@@ -15,19 +15,16 @@
             <a href="/chemist">chemist</a>
             <span style="float: right">Code on <a href="https://github.com/AussieGuy0/ss14-tools">Github</a></span>
         </div>
-        <h1>SS14 Drinks</h1>
+        <h1>SS14 Chemicals</h1>
         <input type="text" id="search-input" placeholder="Type to search..." />
 
         <div id="results"></div>
-        <footer>
-            Source code on <a href="https://github.com/AussieGuy0/ss14-tools">Github</a>
-        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <script src="/search.js"></script>
     <script>
-        fetch("drinks.json")
+        fetch("data.json")
             .then(r => r.json())
             .then(render)
     </script>

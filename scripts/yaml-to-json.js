@@ -1,5 +1,4 @@
-// Need js-yaml.
-// Get drinks yml from https://github.com/space-wizards/space-station-14/blob/master/Resources/Prototypes/Recipes/Reactions/drinks.yml
+// Yaml from: https://github.com/space-wizards/space-station-14/blob/master/Resources/Prototypes/Recipes/Reactions
 const fs = require('fs');
 const yaml = require('js-yaml');
 const path = require('path');

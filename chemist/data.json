@@ -1,0 +1,1136 @@
+[
+  {
+    "type": "reaction",
+    "id": "Dylovene",
+    "reactants": [
+      {
+        "id": "Silicon",
+        "amount": 1
+      },
+      {
+        "id": "Nitrogen",
+        "amount": 1
+      },
+      {
+        "id": "Potassium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Dylovene": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Ethylredoxrazine",
+    "reactants": [
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Dylovene",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Ethylredoxrazine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Cryptobiolin",
+    "reactants": [
+      {
+        "id": "Potassium",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Cryptobiolin": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Arithrazine",
+    "reactants": [
+      {
+        "id": "Hyronalin",
+        "amount": 1
+      },
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Arithrazine": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Bicaridine",
+    "reactants": [
+      {
+        "id": "Inaprovaline",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Bicaridine": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Cryoxadone",
+    "reactants": [
+      {
+        "id": "Dexalin",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Cryoxadone": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Doxarubixadone",
+    "reactants": [
+      {
+        "id": "Cryoxadone",
+        "amount": 1
+      },
+      {
+        "id": "UnstableMutagen",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Doxarubixadone": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Epinephrine",
+    "reactants": [
+      {
+        "id": "Phenol",
+        "amount": 1
+      },
+      {
+        "id": "Acetone",
+        "amount": 1
+      },
+      {
+        "id": "Chlorine",
+        "amount": 1
+      },
+      {
+        "id": "Hydroxide",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Epinephrine": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Dermaline",
+    "reactants": [
+      {
+        "id": "Kelotane",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Phosphorus",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Dermaline": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Dexalin",
+    "reactants": [
+      {
+        "id": "Oxygen",
+        "amount": 2
+      },
+      {
+        "id": "Plasma",
+        "amount": 1,
+        "catalyst": true
+      }
+    ],
+    "products": {
+      "Dexalin": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "DexalinPlus",
+    "reactants": [
+      {
+        "id": "Dexalin",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      },
+      {
+        "id": "Iron",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "DexalinPlus": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Hyronalin",
+    "reactants": [
+      {
+        "id": "Radium",
+        "amount": 1
+      },
+      {
+        "id": "Dylovene",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Hyronalin": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Inaprovaline",
+    "reactants": [
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Inaprovaline": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Ipecac",
+    "reactants": [
+      {
+        "id": "Potassium",
+        "amount": 1
+      },
+      {
+        "id": "Nitrogen",
+        "amount": 1
+      },
+      {
+        "id": "Ammonia",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Ipecac": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "TranexamicAcid",
+    "reactants": [
+      {
+        "id": "Inaprovaline",
+        "amount": 1
+      },
+      {
+        "id": "SulfuricAcid",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "TranexamicAcid": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Kelotane",
+    "reactants": [
+      {
+        "id": "Silicon",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Kelotane": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Leporazine",
+    "reactants": [
+      {
+        "id": "Copper",
+        "amount": 1
+      },
+      {
+        "id": "Fersilicite",
+        "amount": 1
+      },
+      {
+        "id": "Plasma",
+        "amount": 1,
+        "catalyst": true
+      }
+    ],
+    "products": {
+      "Leporazine": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Phalanximine",
+    "reactants": [
+      {
+        "id": "Hyronalin",
+        "amount": 1
+      },
+      {
+        "id": "Ethanol",
+        "amount": 1
+      },
+      {
+        "id": "UnstableMutagen",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Phalanximine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Ambuzol",
+    "reactants": [
+      {
+        "id": "Dylovene",
+        "amount": 1
+      },
+      {
+        "id": "Ammonia",
+        "amount": 1
+      },
+      {
+        "id": "ZombieBlood",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Ambuzol": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "AmbuzolPlus",
+    "reactants": [
+      {
+        "id": "Ambuzol",
+        "amount": 5
+      },
+      {
+        "id": "Omnizine",
+        "amount": 5
+      }
+    ],
+    "products": {
+      "AmbuzolPlus": 10
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Synaptizine",
+    "reactants": [
+      {
+        "id": "Lithium",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Synaptizine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Tricordrazine",
+    "reactants": [
+      {
+        "id": "Inaprovaline",
+        "amount": 1
+      },
+      {
+        "id": "Dylovene",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Tricordrazine": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "HeartbreakerToxin",
+    "reactants": [
+      {
+        "id": "DexalinPlus",
+        "amount": 1
+      },
+      {
+        "id": "MindbreakerToxin",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "HeartbreakerToxin": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Impedrezene",
+    "minTemp": 370,
+    "reactants": [
+      {
+        "id": "Mercury",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Impedrezene": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Lexorin",
+    "impact": "High",
+    "reactants": [
+      {
+        "id": "HeartbreakerToxin",
+        "amount": 1
+      },
+      {
+        "id": "Plasma",
+        "amount": 1
+      },
+      {
+        "id": "Vestine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Lexorin": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Lipozine",
+    "reactants": [
+      {
+        "id": "TableSalt",
+        "amount": 1
+      },
+      {
+        "id": "Ethanol",
+        "amount": 1
+      },
+      {
+        "id": "Radium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Lipozine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Mannitol",
+    "reactants": [
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Mannitol": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "MindbreakerToxin",
+    "minTemp": 370,
+    "reactants": [
+      {
+        "id": "Silicon",
+        "amount": 1
+      },
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      },
+      {
+        "id": "Dylovene",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "MindbreakerToxin": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "SpaceDrugs",
+    "reactants": [
+      {
+        "id": "Mercury",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      },
+      {
+        "id": "Lithium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "SpaceDrugs": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Ultravasculine",
+    "reactants": [
+      {
+        "id": "Histamine",
+        "amount": 2
+      },
+      {
+        "id": "Plasma",
+        "amount": 1,
+        "catalyst": true
+      }
+    ],
+    "products": {
+      "Ultravasculine": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Oculine",
+    "reactants": [
+      {
+        "id": "TableSalt",
+        "amount": 1
+      },
+      {
+        "id": "Blood",
+        "amount": 1
+      },
+      {
+        "id": "Hydroxide",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Oculine": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Siderlac",
+    "reactants": [
+      {
+        "id": "Aloe",
+        "amount": 1
+      },
+      {
+        "id": "Stellibinin",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Siderlac": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Cognizine",
+    "reactants": [
+      {
+        "id": "CarpoToxin",
+        "amount": 1
+      },
+      {
+        "id": "Siderlac",
+        "amount": 1
+      },
+      {
+        "id": "Acetone",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Cognizine": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Sigynate",
+    "impact": "Medium",
+    "minTemp": 370,
+    "reactants": [
+      {
+        "id": "SodiumCarbonate",
+        "amount": 1
+      },
+      {
+        "id": "SodiumHydroxide",
+        "amount": 1
+      },
+      {
+        "id": "Kelotane",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Sigynate": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Saline",
+    "reactants": [
+      {
+        "id": "Water",
+        "amount": 4
+      },
+      {
+        "id": "TableSalt",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Saline": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Lacerinol",
+    "impact": "Medium",
+    "minTemp": 335,
+    "reactants": [
+      {
+        "id": "Bicaridine",
+        "amount": 1
+      },
+      {
+        "id": "Benzene",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Lacerinol": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Puncturase",
+    "impact": "Medium",
+    "minTemp": 325,
+    "reactants": [
+      {
+        "id": "Bicaridine",
+        "amount": 1
+      },
+      {
+        "id": "Hydroxide",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Puncturase": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Bruizine",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Bicaridine",
+        "amount": 1
+      },
+      {
+        "id": "Lithium",
+        "amount": 0.9
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Bruizine": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BicarLacerinol",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Lacerinol",
+        "amount": 1
+      },
+      {
+        "id": "Bicaridine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Razorium": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BicarPuncturase",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Puncturase",
+        "amount": 1
+      },
+      {
+        "id": "Bicaridine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Razorium": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BicarBruizine",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Bruizine",
+        "amount": 1
+      },
+      {
+        "id": "Bicaridine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Razorium": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BruizineLacerinol",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Lacerinol",
+        "amount": 1
+      },
+      {
+        "id": "Bruizine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Razorium": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BruizinePuncturase",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Puncturase",
+        "amount": 1
+      },
+      {
+        "id": "Bruizine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Razorium": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "PuncturaseLacerinol",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Lacerinol",
+        "amount": 1
+      },
+      {
+        "id": "Puncturase",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Razorium": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Diphenhydramine",
+    "impact": "Medium",
+    "minTemp": 377.59,
+    "reactants": [
+      {
+        "id": "Diethylamine",
+        "amount": 1
+      },
+      {
+        "id": "Oil",
+        "amount": 1
+      },
+      {
+        "id": "TableSalt",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      },
+      {
+        "id": "Ethanol",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Diphenhydramine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Pyrazine",
+    "impact": "Medium",
+    "minTemp": 540,
+    "reactants": [
+      {
+        "id": "Leporazine",
+        "amount": 1
+      },
+      {
+        "id": "Dermaline",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Pyrazine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Insuzine",
+    "impact": "Medium",
+    "minTemp": 433,
+    "reactants": [
+      {
+        "id": "Leporazine",
+        "amount": 1
+      },
+      {
+        "id": "Kelotane",
+        "amount": 1
+      },
+      {
+        "id": "Silicon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Insuzine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Opporozidone",
+    "minTemp": 400,
+    "reactants": [
+      {
+        "id": "Cognizine",
+        "amount": 1
+      },
+      {
+        "id": "Plasma",
+        "amount": 2
+      },
+      {
+        "id": "Doxarubixadone",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Opporozidone": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Necrosol",
+    "impact": "Medium",
+    "minTemp": 370,
+    "reactants": [
+      {
+        "id": "Blood",
+        "amount": 3
+      },
+      {
+        "id": "Omnizine",
+        "amount": 1
+      },
+      {
+        "id": "Cryoxadone",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Necrosol": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Aloxadone",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Cryoxadone",
+        "amount": 1
+      },
+      {
+        "id": "Aloe",
+        "amount": 2
+      },
+      {
+        "id": "Sigynate",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Aloxadone": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Psicodine",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Mannitol",
+        "amount": 2
+      },
+      {
+        "id": "Impedrezene",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Psicodine": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Lipolicide",
+    "reactants": [
+      {
+        "id": "Ephedrine",
+        "amount": 1
+      },
+      {
+        "id": "Diethylamine",
+        "amount": 1
+      },
+      {
+        "id": "Mercury",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Lipolicide": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Happiness",
+    "reactants": [
+      {
+        "id": "Laughter",
+        "amount": 2
+      },
+      {
+        "id": "Epinephrine",
+        "amount": 1
+      },
+      {
+        "id": "Ethanol",
+        "amount": 1
+      },
+      {
+        "id": "Plasma",
+        "amount": 5,
+        "catalyst": true
+      }
+    ],
+    "products": {
+      "Happiness": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "PotassiumIodide",
+    "reactants": [
+      {
+        "id": "Potassium",
+        "amount": 1
+      },
+      {
+        "id": "Iodine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "PotassiumIodide": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Haloperidol",
+    "reactants": [
+      {
+        "id": "Aluminium",
+        "amount": 1
+      },
+      {
+        "id": "Chlorine",
+        "amount": 1
+      },
+      {
+        "id": "Fluorine",
+        "amount": 1
+      },
+      {
+        "id": "Oil",
+        "amount": 1
+      },
+      {
+        "id": "PotassiumIodide",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Haloperidol": 5
+    }
+  }
+]
