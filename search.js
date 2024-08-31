@@ -1,6 +1,15 @@
 // Requires fuse.js imported.
 
 
+function getProductIfDiffToId(item) {
+    const products = item.products
+    if (products == null || !Array.isArray(products) || products.length === 0) {
+        return null
+    }
+    const productId = products[0].id
+    return productId !== item.id ? productId : null;
+}
+
 function renderReactants(reactants) {
     const pluralizeUnits = (amount) => amount > 1 ? 'units' : 'unit'
     const ul = document.createElement('ul')
@@ -38,10 +47,17 @@ function renderSearchResults(results) {
             titleContainer.appendChild(requiredMixerCategories)
         }
 
-
         const reactants = renderReactants(item.reactants)
         div.appendChild(titleContainer)
         div.appendChild(reactants)
+
+        const productId = getProductIfDiffToId(item);
+        if (productId) {
+            const product = document.createElement("div")
+            product.className = 'result-item-product'
+            product.textContent = `Produces ${productId}`
+            div.appendChild(product);
+        }
         resultsContainer.appendChild(div)
     });
 
@@ -65,9 +81,8 @@ function runSearch(fuse, json, searchText) {
 function render(json) {
     // Fuse.js options
     const options = {
-        keys: ['id', 'reactants.id'],
+        keys: ['id', 'reactants.id', 'products.id'],
         threshold: 0.1,
-        includeMatches: true
     };
 
 

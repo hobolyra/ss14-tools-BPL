@@ -21,7 +21,7 @@ try {
 
   const cleanedData = data.map(drink => {
     return {
-      ...drink, reactants: convertToArray(drink.reactants)
+      ...drink, reactants: convertToArray(drink.reactants), products: convertToArray(drink.products)
     };
   });
 

@@ -16,9 +16,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Dylovene": 3
-    }
+    "products": [
+      {
+        "id": "Dylovene"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -37,9 +39,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Ethylredoxrazine": 3
-    }
+    "products": [
+      {
+        "id": "Ethylredoxrazine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -58,9 +62,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Cryptobiolin": 3
-    }
+    "products": [
+      {
+        "id": "Cryptobiolin"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -75,9 +81,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Arithrazine": 2
-    }
+    "products": [
+      {
+        "id": "Arithrazine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -92,9 +100,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Bicaridine": 2
-    }
+    "products": [
+      {
+        "id": "Bicaridine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -113,9 +123,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Cryoxadone": 3
-    }
+    "products": [
+      {
+        "id": "Cryoxadone"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -130,9 +142,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Doxarubixadone": 2
-    }
+    "products": [
+      {
+        "id": "Doxarubixadone"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -155,9 +169,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Epinephrine": 4
-    }
+    "products": [
+      {
+        "id": "Epinephrine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -176,9 +192,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Dermaline": 3
-    }
+    "products": [
+      {
+        "id": "Dermaline"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -194,9 +212,11 @@
         "catalyst": true
       }
     ],
-    "products": {
-      "Dexalin": 3
-    }
+    "products": [
+      {
+        "id": "Dexalin"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -215,9 +235,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "DexalinPlus": 3
-    }
+    "products": [
+      {
+        "id": "DexalinPlus"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -232,9 +254,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Hyronalin": 2
-    }
+    "products": [
+      {
+        "id": "Hyronalin"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -253,9 +277,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Inaprovaline": 3
-    }
+    "products": [
+      {
+        "id": "Inaprovaline"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -274,9 +300,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Ipecac": 2
-    }
+    "products": [
+      {
+        "id": "Ipecac"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -295,9 +323,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "TranexamicAcid": 3
-    }
+    "products": [
+      {
+        "id": "TranexamicAcid"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -312,9 +342,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Kelotane": 2
-    }
+    "products": [
+      {
+        "id": "Kelotane"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -334,9 +366,11 @@
         "catalyst": true
       }
     ],
-    "products": {
-      "Leporazine": 2
-    }
+    "products": [
+      {
+        "id": "Leporazine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -355,9 +389,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Phalanximine": 3
-    }
+    "products": [
+      {
+        "id": "Phalanximine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -376,9 +412,11 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Ambuzol": 4
-    }
+    "products": [
+      {
+        "id": "Ambuzol"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -393,9 +431,11 @@
         "amount": 5
       }
     ],
-    "products": {
-      "AmbuzolPlus": 10
-    }
+    "products": [
+      {
+        "id": "AmbuzolPlus"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -414,9 +454,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Synaptizine": 3
-    }
+    "products": [
+      {
+        "id": "Synaptizine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -431,9 +473,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Tricordrazine": 2
-    }
+    "products": [
+      {
+        "id": "Tricordrazine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -448,9 +492,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "HeartbreakerToxin": 2
-    }
+    "products": [
+      {
+        "id": "HeartbreakerToxin"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -470,9 +516,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Impedrezene": 1
-    }
+    "products": [
+      {
+        "id": "Impedrezene"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -492,9 +540,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Lexorin": 2
-    }
+    "products": [
+      {
+        "id": "Lexorin"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -513,9 +563,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Lipozine": 3
-    }
+    "products": [
+      {
+        "id": "Lipozine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -534,9 +586,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Mannitol": 3
-    }
+    "products": [
+      {
+        "id": "Mannitol"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -556,9 +610,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "MindbreakerToxin": 3
-    }
+    "products": [
+      {
+        "id": "MindbreakerToxin"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -577,9 +633,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "SpaceDrugs": 3
-    }
+    "products": [
+      {
+        "id": "SpaceDrugs"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -595,9 +653,11 @@
         "catalyst": true
       }
     ],
-    "products": {
-      "Ultravasculine": 2
-    }
+    "products": [
+      {
+        "id": "Ultravasculine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -616,9 +676,11 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Oculine": 4
-    }
+    "products": [
+      {
+        "id": "Oculine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -633,9 +695,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Siderlac": 2
-    }
+    "products": [
+      {
+        "id": "Siderlac"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -654,9 +718,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Cognizine": 1
-    }
+    "products": [
+      {
+        "id": "Cognizine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -685,9 +751,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Sigynate": 4
-    }
+    "products": [
+      {
+        "id": "Sigynate"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -702,9 +770,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Saline": 5
-    }
+    "products": [
+      {
+        "id": "Saline"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -721,9 +791,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Lacerinol": 2
-    }
+    "products": [
+      {
+        "id": "Lacerinol"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -740,9 +812,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Puncturase": 2
-    }
+    "products": [
+      {
+        "id": "Puncturase"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -762,9 +836,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Bruizine": 2
-    }
+    "products": [
+      {
+        "id": "Bruizine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -780,9 +856,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Razorium": 1
-    }
+    "products": [
+      {
+        "id": "Razorium"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -798,9 +876,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Razorium": 1
-    }
+    "products": [
+      {
+        "id": "Razorium"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -816,9 +896,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Razorium": 1
-    }
+    "products": [
+      {
+        "id": "Razorium"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -834,9 +916,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Razorium": 1
-    }
+    "products": [
+      {
+        "id": "Razorium"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -852,9 +936,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Razorium": 1
-    }
+    "products": [
+      {
+        "id": "Razorium"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -870,9 +956,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Razorium": 1
-    }
+    "products": [
+      {
+        "id": "Razorium"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -901,9 +989,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Diphenhydramine": 3
-    }
+    "products": [
+      {
+        "id": "Diphenhydramine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -924,9 +1014,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Pyrazine": 3
-    }
+    "products": [
+      {
+        "id": "Pyrazine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -947,9 +1039,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Insuzine": 3
-    }
+    "products": [
+      {
+        "id": "Insuzine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -969,9 +1063,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Opporozidone": 3
-    }
+    "products": [
+      {
+        "id": "Opporozidone"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -992,9 +1088,11 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Necrosol": 2
-    }
+    "products": [
+      {
+        "id": "Necrosol"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1014,9 +1112,11 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Aloxadone": 4
-    }
+    "products": [
+      {
+        "id": "Aloxadone"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1036,9 +1136,11 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Psicodine": 4
-    }
+    "products": [
+      {
+        "id": "Psicodine"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1057,9 +1159,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Lipolicide": 3
-    }
+    "products": [
+      {
+        "id": "Lipolicide"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1083,9 +1187,11 @@
         "catalyst": true
       }
     ],
-    "products": {
-      "Happiness": 4
-    }
+    "products": [
+      {
+        "id": "Happiness"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1100,9 +1206,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "PotassiumIodide": 2
-    }
+    "products": [
+      {
+        "id": "PotassiumIodide"
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1129,8 +1237,10 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Haloperidol": 5
-    }
+    "products": [
+      {
+        "id": "Haloperidol"
+      }
+    ]
   }
 ]
