@@ -1,0 +1,1989 @@
+[
+  {
+    "type": "reaction",
+    "id": "AcidSpit",
+    "reactants": [
+      {
+        "id": "Wine",
+        "amount": 2
+      },
+      {
+        "id": "SulfuricAcid",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "AcidSpit": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "AlliesCocktail",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Martini",
+        "amount": 2
+      },
+      {
+        "id": "Vodka",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "AlliesCocktail": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Amasec",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Wine",
+        "amount": 2
+      },
+      {
+        "id": "Vodka",
+        "amount": 2
+      },
+      {
+        "id": "Iron",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Amasec": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Andalusia",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLemon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Andalusia": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Antifreeze",
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 1
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Antifreeze": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ArnoldPalmer",
+    "reactants": [
+      {
+        "id": "IcedTea",
+        "amount": 1
+      },
+      {
+        "id": "Lemonade",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ArnoldPalmer": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "AtomicBomb",
+    "reactants": [
+      {
+        "id": "B52",
+        "amount": 10
+      },
+      {
+        "id": "Uranium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "AtomicBomb": 11
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "B52",
+    "reactants": [
+      {
+        "id": "Cognac",
+        "amount": 1
+      },
+      {
+        "id": "IrishCarBomb",
+        "amount": 1
+      },
+      {
+        "id": "CoffeeLiqueur",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "B52": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BudgetInsulsDrink",
+    "reactants": [
+      {
+        "id": "Tequila",
+        "amount": 1
+      },
+      {
+        "id": "VodkaRedBool",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "BudgetInsulsDrink": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BlueHawaiian",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "CoconutRum",
+        "amount": 2
+      },
+      {
+        "id": "JuicePineapple",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLemon",
+        "amount": 1
+      },
+      {
+        "id": "BlueCuracao",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "BlueHawaiian": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "CogChamp",
+    "reactants": [
+      {
+        "id": "Cognac",
+        "amount": 1
+      },
+      {
+        "id": "ScrewdriverCocktail",
+        "amount": 1
+      },
+      {
+        "id": "WeldingFuel",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "CogChamp": 3
+    },
+    "sound": {
+      "path": "/Audio/Magic/Cults/ClockCult/steam_whoosh.ogg"
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BahamaMama",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Ice",
+        "amount": 1
+      },
+      {
+        "id": "JuiceOrange",
+        "amount": 1
+      },
+      {
+        "id": "JuicePineapple",
+        "amount": 1
+      },
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "CoconutRum",
+        "amount": 1
+      },
+      {
+        "id": "Grenadine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "BahamaMama": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Barefoot",
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 1
+      },
+      {
+        "id": "Vermouth",
+        "amount": 1
+      },
+      {
+        "id": "JuiceBerry",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Barefoot": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BananaHonk",
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 1
+      },
+      {
+        "id": "JuiceBanana",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "BananaHonk": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BeepskySmash",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Iron",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "BeepskySmash": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BlackRussian",
+    "reactants": [
+      {
+        "id": "CoffeeLiqueur",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "BlackRussian": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BloodyMary",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "JuiceTomato",
+        "amount": 3
+      },
+      {
+        "id": "Vodka",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "BloodyMary": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Booger",
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 2
+      },
+      {
+        "id": "JuiceBanana",
+        "amount": 1
+      },
+      {
+        "id": "JuiceWatermelon",
+        "amount": 1
+      },
+      {
+        "id": "Rum",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Booger": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "BraveBull",
+    "reactants": [
+      {
+        "id": "CoffeeLiqueur",
+        "amount": 1
+      },
+      {
+        "id": "Tequila",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "BraveBull": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "CafeLatte",
+    "reactants": [
+      {
+        "id": "Coffee",
+        "amount": 1
+      },
+      {
+        "id": "Milk",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "CafeLatte": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "CoconutRum",
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 2
+      },
+      {
+        "id": "CoconutWater",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "CoconutRum": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Cosmopolitan",
+    "reactants": [
+      {
+        "id": "Vodka",
+        "amount": 1
+      },
+      {
+        "id": "JuiceBerry",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Cosmopolitan": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "CreamOfCoconut",
+    "reactants": [
+      {
+        "id": "CoconutWater",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      },
+      {
+        "id": "Milk",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "CreamOfCoconut": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "CubaLibre",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 2
+      },
+      {
+        "id": "Rum",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "CubaLibre": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "DemonsBlood",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "Blood",
+        "amount": 1
+      },
+      {
+        "id": "DrGibb",
+        "amount": 1
+      },
+      {
+        "id": "SpaceMountainWind",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "DemonsBlood": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "DevilsKiss",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "Blood",
+        "amount": 1
+      },
+      {
+        "id": "CoffeeLiqueur",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "DevilsKiss": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "DoctorsDelight",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 2
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "JuiceOrange",
+        "amount": 1
+      },
+      {
+        "id": "JuiceTomato",
+        "amount": 1
+      },
+      {
+        "id": "Tricordrazine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "DoctorsDelight": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "DriestMartini",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Gin",
+        "amount": 1
+      },
+      {
+        "id": "Nothing",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "DriestMartini": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ErikaSurprise",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Ale",
+        "amount": 2
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      },
+      {
+        "id": "JuiceBanana",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ErikaSurprise": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "EthanolBreakdown",
+    "source": true,
+    "requiredMixerCategories": [
+      "Electrolysis"
+    ],
+    "reactants": [
+      {
+        "id": "Ethanol",
+        "amount": 9
+      }
+    ],
+    "products": {
+      "Hydrogen": 6,
+      "Carbon": 2,
+      "Oxygen": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "FourteenLoko",
+    "reactants": [
+      {
+        "id": "Coffee",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "FourteenLoko": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "GargleBlaster",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Cognac",
+        "amount": 1
+      },
+      {
+        "id": "Gin",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "GargleBlaster": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "GinFizz",
+    "reactants": [
+      {
+        "id": "Gin",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "SodaWater",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "GinFizz": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "GinTonic",
+    "reactants": [
+      {
+        "id": "Gin",
+        "amount": 1
+      },
+      {
+        "id": "TonicWater",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "GinTonic": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Gildlager",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Gold",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 10
+      }
+    ],
+    "products": {
+      "Gildlager": 10
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Grog",
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 2
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Grog": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "HippiesDelight",
+    "reactants": [
+      {
+        "id": "GargleBlaster",
+        "amount": 1
+      },
+      {
+        "id": "THC",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "HippiesDelight": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Hooch",
+    "reactants": [
+      {
+        "id": "Ethanol",
+        "amount": 2
+      },
+      {
+        "id": "WeldingFuel",
+        "amount": 1
+      },
+      {
+        "id": "Enzyme",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Hooch": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "HotCocoa",
+    "minTemp": 350,
+    "reactants": [
+      {
+        "id": "Water",
+        "amount": 1
+      },
+      {
+        "id": "CocoaPowder",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "HotCocoa": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IceCream",
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 1
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IceCream": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IcedBeer",
+    "reactants": [
+      {
+        "id": "Beer",
+        "amount": 5
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IcedBeer": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IcedBeerAlt",
+    "reactants": [
+      {
+        "id": "Beer",
+        "amount": 10
+      },
+      {
+        "id": "Frostoil",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IcedBeer": 10
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IcedCoffee",
+    "reactants": [
+      {
+        "id": "Coffee",
+        "amount": 2
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IcedCoffee": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IcedGreenTea",
+    "reactants": [
+      {
+        "id": "GreenTea",
+        "amount": 2
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IcedGreenTea": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IcedTea",
+    "reactants": [
+      {
+        "id": "Ice",
+        "amount": 1
+      },
+      {
+        "id": "Tea",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "IcedTea": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IrishBool",
+    "reactants": [
+      {
+        "id": "EnergyDrink",
+        "amount": 1
+      },
+      {
+        "id": "IrishCarBomb",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IrishBool": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IrishCarBomb",
+    "reactants": [
+      {
+        "id": "Ale",
+        "amount": 1
+      },
+      {
+        "id": "IrishCream",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IrishCarBomb": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IrishCoffee",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "Coffee",
+        "amount": 1
+      },
+      {
+        "id": "IrishCream",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "IrishCoffee": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "IrishCream",
+    "reactants": [
+      {
+        "id": "Cream",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "IrishCream": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "KiraSpecial",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "JuiceOrange",
+        "amount": 1
+      },
+      {
+        "id": "SodaWater",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "KiraSpecial": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Lemonade",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "JuiceLemon",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Lemonade": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "LemonLime",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "JuiceLemon",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "SodaWater",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "LemonLime": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "LongIslandIcedTea",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "CubaLibre",
+        "amount": 3
+      },
+      {
+        "id": "Gin",
+        "amount": 1
+      },
+      {
+        "id": "Tequila",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "LongIslandIcedTea": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Manhattan",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Whiskey",
+        "amount": 2
+      },
+      {
+        "id": "Vermouth",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Manhattan": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ManhattanProject",
+    "reactants": [
+      {
+        "id": "Whiskey",
+        "amount": 10
+      },
+      {
+        "id": "Uranium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ManhattanProject": 10
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ManlyDorf",
+    "reactants": [
+      {
+        "id": "Ale",
+        "amount": 2
+      },
+      {
+        "id": "Beer",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ManlyDorf": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Margarita",
+    "reactants": [
+      {
+        "id": "Tequila",
+        "amount": 2
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Margarita": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Martini",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Gin",
+        "amount": 2
+      },
+      {
+        "id": "Vermouth",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Martini": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Mead",
+    "reactants": [
+      {
+        "id": "Sugar",
+        "amount": 1
+      },
+      {
+        "id": "Enzyme",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Mead": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Mojito",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "SodaWater",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Mojito": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Moonshine",
+    "reactants": [
+      {
+        "id": "Tequila",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Moonshine": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "NuclearCola",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 5
+      },
+      {
+        "id": "Uranium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "NuclearCola": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Patron",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Tequila",
+        "amount": 10
+      },
+      {
+        "id": "Silver",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Patron": 10
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Painkiller",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "JuicePineapple",
+        "amount": 3
+      },
+      {
+        "id": "CoconutRum",
+        "amount": 1
+      },
+      {
+        "id": "JuiceOrange",
+        "amount": 1
+      },
+      {
+        "id": "CreamOfCoconut",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Painkiller": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "PinaColada",
+    "reactants": [
+      {
+        "id": "JuicePineapple",
+        "amount": 3
+      },
+      {
+        "id": "JuiceLime",
+        "amount": 1
+      },
+      {
+        "id": "Rum",
+        "amount": 1
+      },
+      {
+        "id": "CreamOfCoconut",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "PinaColada": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Posca",
+    "reactants": [
+      {
+        "id": "TableSalt",
+        "amount": 1
+      },
+      {
+        "id": "Vinegar",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Posca": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "RedMead",
+    "reactants": [
+      {
+        "id": "Mead",
+        "amount": 1
+      },
+      {
+        "id": "Blood",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "RedMead": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Rewriter",
+    "reactants": [
+      {
+        "id": "Coffee",
+        "amount": 1
+      },
+      {
+        "id": "SpaceMountainWind",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Rewriter": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "RootBeerFloat",
+    "reactants": [
+      {
+        "id": "RootBeer",
+        "amount": 2
+      },
+      {
+        "id": "IceCream",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "RootBeerFloat": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "RoyRogers",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 2
+      },
+      {
+        "id": "Grenadine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "RoyRogers": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Rubberneck",
+    "reactants": [
+      {
+        "id": "EnergyDrink",
+        "amount": 2
+      },
+      {
+        "id": "Moonshine",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Rubberneck": 4
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Sbiten",
+    "reactants": [
+      {
+        "id": "Vodka",
+        "amount": 1
+      },
+      {
+        "id": "CapsaicinOil",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Sbiten": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ScrewdriverCocktail",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "JuiceOrange",
+        "amount": 2
+      },
+      {
+        "id": "Vodka",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ScrewdriverCocktail": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ShirleyTemple",
+    "reactants": [
+      {
+        "id": "SolDry",
+        "amount": 2
+      },
+      {
+        "id": "Grenadine",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ShirleyTemple": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Silencer",
+    "reactants": [
+      {
+        "id": "Nothing",
+        "amount": 1
+      },
+      {
+        "id": "Cream",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Silencer": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "SnowWhite",
+    "reactants": [
+      {
+        "id": "Beer",
+        "amount": 1
+      },
+      {
+        "id": "LemonLime",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "SnowWhite": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "SoyLatte",
+    "reactants": [
+      {
+        "id": "Coffee",
+        "amount": 1
+      },
+      {
+        "id": "MilkSoy",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "SoyLatte": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Starkist",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 1
+      },
+      {
+        "id": "JuiceOrange",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "Starkist": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "SuiDream",
+    "reactants": [
+      {
+        "id": "SpaceUp",
+        "amount": 1
+      },
+      {
+        "id": "BlueCuracao",
+        "amount": 1
+      },
+      {
+        "id": "MelonLiquor",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "SuiDream": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "SyndicateBomb",
+    "reactants": [
+      {
+        "id": "Beer",
+        "amount": 1
+      },
+      {
+        "id": "WhiskeyCola",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "SyndicateBomb": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Tea",
+    "reactants": [
+      {
+        "id": "TeaPowder",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 5
+      }
+    ],
+    "products": {
+      "Tea": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "TequilaSunrise",
+    "reactants": [
+      {
+        "id": "JuiceOrange",
+        "amount": 1
+      },
+      {
+        "id": "Tequila",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "TequilaSunrise": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ThreeMileIsland",
+    "reactants": [
+      {
+        "id": "LongIslandIcedTea",
+        "amount": 10
+      },
+      {
+        "id": "Uranium",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "ThreeMileIsland": 10
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "ToxinsSpecial",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 2
+      },
+      {
+        "id": "Vermouth",
+        "amount": 1
+      },
+      {
+        "id": "Plasma",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "ToxinsSpecial": 5
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "VodkaMartini",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Vermouth",
+        "amount": 1
+      },
+      {
+        "id": "Vodka",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "VodkaMartini": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "VodkaRedBool",
+    "reactants": [
+      {
+        "id": "Vodka",
+        "amount": 1
+      },
+      {
+        "id": "EnergyDrink",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "VodkaRedBool": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "VodkaTonic",
+    "reactants": [
+      {
+        "id": "Vodka",
+        "amount": 1
+      },
+      {
+        "id": "TonicWater",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "VodkaTonic": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "WhiskeyCola",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 2
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "WhiskeyCola": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "WatermelonWakeup",
+    "reactants": [
+      {
+        "id": "JuiceWatermelon",
+        "amount": 1
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      },
+      {
+        "id": "EnergyDrink",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "WatermelonWakeup": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "WhiteRussian",
+    "reactants": [
+      {
+        "id": "BlackRussian",
+        "amount": 2
+      },
+      {
+        "id": "Cream",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "WhiteRussian": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "WhiskeySoda",
+    "reactants": [
+      {
+        "id": "SodaWater",
+        "amount": 2
+      },
+      {
+        "id": "Whiskey",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "WhiskeySoda": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "XenoBasher",
+    "reactants": [
+      {
+        "id": "ManlyDorf",
+        "amount": 2
+      },
+      {
+        "id": "EnergyDrink",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "XenoBasher": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "HotRamen",
+    "minTemp": 323.15,
+    "reactants": [
+      {
+        "id": "DryRamen",
+        "amount": 5
+      },
+      {
+        "id": "Water",
+        "amount": 2
+      }
+    ],
+    "products": {
+      "HotRamen": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Pilk",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 1
+      },
+      {
+        "id": "Milk",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Pilk": 2
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "TheMartinez",
+    "reactants": [
+      {
+        "id": "Cola",
+        "amount": 2
+      },
+      {
+        "id": "Vodka",
+        "amount": 2
+      },
+      {
+        "id": "Ice",
+        "amount": 1
+      },
+      {
+        "id": "JuiceLemon",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "TheMartinez": 6
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "WaterBreakdown",
+    "source": true,
+    "requiredMixerCategories": [
+      "Electrolysis"
+    ],
+    "reactants": [
+      {
+        "id": "Water",
+        "amount": 3
+      }
+    ],
+    "products": {
+      "Hydrogen": 2,
+      "Oxygen": 1
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "WhiteGilgamesh",
+    "reactants": [
+      {
+        "id": "Beer",
+        "amount": 2
+      },
+      {
+        "id": "Milk",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "WhiteGilgamesh": 3
+    }
+  },
+  {
+    "type": "reaction",
+    "id": "Cola",
+    "reactants": [
+      {
+        "id": "Ipecac",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      }
+    ],
+    "products": {
+      "Cola": 4
+    }
+  }
+]
