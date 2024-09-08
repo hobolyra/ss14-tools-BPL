@@ -1,13 +1,42 @@
-// Yaml from: https://github.com/space-wizards/space-station-14/blob/master/Resources/Prototypes/Recipes/Reactions
 const fs = require('fs');
 const yaml = require('js-yaml');
 const path = require('path');
+
+
+// Need this stuff to handle custom (!) tags in yaml.
+// From https://github.com/nodeca/js-yaml/blob/0d3ca7a27b03a6c974790a30a89e456007d62976/examples/handle_unknown_types.js
+class CustomTag {
+  constructor(type, data) {
+    this.type = type;
+    this.data = data;
+  }
+}
+
+const tags = ['scalar', 'sequence', 'mapping'].map(function (kind) {
+  // first argument here is a prefix, so this type will handle anything starting with !
+  return new yaml.Type('!', {
+    kind: kind,
+    multi: true,
+    representName: function (object) {
+      return object.type;
+    },
+    represent: function (object) {
+      return object.data;
+    },
+    instanceOf: CustomTag,
+    construct: function (data, type) {
+      return new CustomTag(type, data);
+    }
+  });
+});
+
+const schema = yaml.DEFAULT_SCHEMA.extend(tags);
 
 // Get input and output file paths from command-line arguments
 const [, , inputFile, outputFile] = process.argv;
 
 if (!inputFile || !outputFile) {
-  console.error('Usage: node convert-yaml-to-json.js <input.yaml> <output.json>');
+  console.error('Usage: node yaml-to-json.js <input.yaml> <output.json>');
   process.exit(1);
 }
 
@@ -17,11 +46,11 @@ const outputPath = path.resolve(outputFile);
 
 try {
   const yamlFile = fs.readFileSync(inputPath, 'utf8');
-  const data = yaml.load(yamlFile);
+  const data = yaml.load(yamlFile, {schema: schema});
 
-  const cleanedData = data.map(drink => {
+  const cleanedData = data.map(entry => {
     return {
-      ...drink, reactants: convertToArray(drink.reactants), products: convertToArray(drink.products)
+      ...entry, reactants: convertToArray(entry.reactants), products: convertProductsToArray(entry.products)
     };
   });
 
@@ -39,5 +68,17 @@ function convertToArray(obj) {
   return Object.keys(obj).map(key => ({
     id: key,
     ...obj[key]
+  }));
+}
+
+
+// Obj has the form {"key": 2}.
+function convertProductsToArray(obj) {
+  if (!obj) {
+    return []
+  }
+  return Object.keys(obj).map(key => ({
+    id: key,
+    amount: obj[key]
   }));
 }

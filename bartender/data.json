@@ -12,9 +12,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "AcidSpit": 3
-    }
+    "products": [
+      {
+        "id": "AcidSpit",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -32,9 +35,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "AlliesCocktail": 3
-    }
+    "products": [
+      {
+        "id": "AlliesCocktail",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -56,9 +62,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Amasec": 5
-    }
+    "products": [
+      {
+        "id": "Amasec",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -80,9 +89,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Andalusia": 3
-    }
+    "products": [
+      {
+        "id": "Andalusia",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -101,9 +113,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Antifreeze": 4
-    }
+    "products": [
+      {
+        "id": "Antifreeze",
+        "amount": 4
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -118,9 +133,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ArnoldPalmer": 2
-    }
+    "products": [
+      {
+        "id": "ArnoldPalmer",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -135,9 +153,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "AtomicBomb": 11
-    }
+    "products": [
+      {
+        "id": "AtomicBomb",
+        "amount": 11
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -156,9 +177,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "B52": 3
-    }
+    "products": [
+      {
+        "id": "B52",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -173,9 +197,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "BudgetInsulsDrink": 3
-    }
+    "products": [
+      {
+        "id": "BudgetInsulsDrink",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -201,9 +228,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "BlueHawaiian": 5
-    }
+    "products": [
+      {
+        "id": "BlueHawaiian",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -222,9 +252,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "CogChamp": 3
-    },
+    "products": [
+      {
+        "id": "CogChamp",
+        "amount": 3
+      }
+    ],
     "sound": {
       "path": "/Audio/Magic/Cults/ClockCult/steam_whoosh.ogg"
     }
@@ -261,9 +294,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "BahamaMama": 6
-    }
+    "products": [
+      {
+        "id": "BahamaMama",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -282,9 +318,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Barefoot": 3
-    }
+    "products": [
+      {
+        "id": "Barefoot",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -303,9 +342,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "BananaHonk": 3
-    }
+    "products": [
+      {
+        "id": "BananaHonk",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -327,9 +369,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "BeepskySmash": 2
-    }
+    "products": [
+      {
+        "id": "BeepskySmash",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -344,9 +389,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "BlackRussian": 3
-    }
+    "products": [
+      {
+        "id": "BlackRussian",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -368,9 +416,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "BloodyMary": 6
-    }
+    "products": [
+      {
+        "id": "BloodyMary",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -393,9 +444,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Booger": 5
-    }
+    "products": [
+      {
+        "id": "Booger",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -410,9 +464,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "BraveBull": 3
-    }
+    "products": [
+      {
+        "id": "BraveBull",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -427,9 +484,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "CafeLatte": 2
-    }
+    "products": [
+      {
+        "id": "CafeLatte",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -444,9 +504,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "CoconutRum": 3
-    }
+    "products": [
+      {
+        "id": "CoconutRum",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -465,9 +528,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Cosmopolitan": 3
-    }
+    "products": [
+      {
+        "id": "Cosmopolitan",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -486,9 +552,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "CreamOfCoconut": 3
-    }
+    "products": [
+      {
+        "id": "CreamOfCoconut",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -503,9 +572,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "CubaLibre": 3
-    }
+    "products": [
+      {
+        "id": "CubaLibre",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -531,9 +603,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "DemonsBlood": 4
-    }
+    "products": [
+      {
+        "id": "DemonsBlood",
+        "amount": 4
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -555,9 +630,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "DevilsKiss": 3
-    }
+    "products": [
+      {
+        "id": "DevilsKiss",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -587,9 +665,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "DoctorsDelight": 6
-    }
+    "products": [
+      {
+        "id": "DoctorsDelight",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -607,9 +688,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "DriestMartini": 2
-    }
+    "products": [
+      {
+        "id": "DriestMartini",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -639,9 +723,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ErikaSurprise": 6
-    }
+    "products": [
+      {
+        "id": "ErikaSurprise",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -656,11 +743,20 @@
         "amount": 9
       }
     ],
-    "products": {
-      "Hydrogen": 6,
-      "Carbon": 2,
-      "Oxygen": 1
-    }
+    "products": [
+      {
+        "id": "Hydrogen",
+        "amount": 6
+      },
+      {
+        "id": "Carbon",
+        "amount": 2
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -679,9 +775,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "FourteenLoko": 3
-    }
+    "products": [
+      {
+        "id": "FourteenLoko",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -711,9 +810,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "GargleBlaster": 5
-    }
+    "products": [
+      {
+        "id": "GargleBlaster",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -732,9 +834,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "GinFizz": 3
-    }
+    "products": [
+      {
+        "id": "GinFizz",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -749,9 +854,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "GinTonic": 3
-    }
+    "products": [
+      {
+        "id": "GinTonic",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -769,9 +877,12 @@
         "amount": 10
       }
     ],
-    "products": {
-      "Gildlager": 10
-    }
+    "products": [
+      {
+        "id": "Gildlager",
+        "amount": 10
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -790,9 +901,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Grog": 4
-    }
+    "products": [
+      {
+        "id": "Grog",
+        "amount": 4
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -807,9 +921,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "HippiesDelight": 2
-    }
+    "products": [
+      {
+        "id": "HippiesDelight",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -828,9 +945,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Hooch": 3
-    }
+    "products": [
+      {
+        "id": "Hooch",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -846,9 +966,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "HotCocoa": 2
-    }
+    "products": [
+      {
+        "id": "HotCocoa",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -867,9 +990,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IceCream": 3
-    }
+    "products": [
+      {
+        "id": "IceCream",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -884,9 +1010,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IcedBeer": 5
-    }
+    "products": [
+      {
+        "id": "IcedBeer",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -901,9 +1030,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IcedBeer": 10
-    }
+    "products": [
+      {
+        "id": "IcedBeer",
+        "amount": 10
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -918,9 +1050,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IcedCoffee": 3
-    }
+    "products": [
+      {
+        "id": "IcedCoffee",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -935,9 +1070,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IcedGreenTea": 3
-    }
+    "products": [
+      {
+        "id": "IcedGreenTea",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -952,9 +1090,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "IcedTea": 3
-    }
+    "products": [
+      {
+        "id": "IcedTea",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -969,9 +1110,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IrishBool": 2
-    }
+    "products": [
+      {
+        "id": "IrishBool",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -986,9 +1130,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IrishCarBomb": 2
-    }
+    "products": [
+      {
+        "id": "IrishCarBomb",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1006,9 +1153,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "IrishCoffee": 2
-    }
+    "products": [
+      {
+        "id": "IrishCoffee",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1023,9 +1173,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "IrishCream": 3
-    }
+    "products": [
+      {
+        "id": "IrishCream",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1047,9 +1200,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "KiraSpecial": 3
-    }
+    "products": [
+      {
+        "id": "KiraSpecial",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1071,9 +1227,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Lemonade": 3
-    }
+    "products": [
+      {
+        "id": "Lemonade",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1095,9 +1254,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "LemonLime": 3
-    }
+    "products": [
+      {
+        "id": "LemonLime",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1123,9 +1285,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "LongIslandIcedTea": 6
-    }
+    "products": [
+      {
+        "id": "LongIslandIcedTea",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1143,9 +1308,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Manhattan": 3
-    }
+    "products": [
+      {
+        "id": "Manhattan",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1160,9 +1328,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ManhattanProject": 10
-    }
+    "products": [
+      {
+        "id": "ManhattanProject",
+        "amount": 10
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1177,9 +1348,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ManlyDorf": 3
-    }
+    "products": [
+      {
+        "id": "ManlyDorf",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1194,9 +1368,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Margarita": 3
-    }
+    "products": [
+      {
+        "id": "Margarita",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1214,9 +1391,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Martini": 3
-    }
+    "products": [
+      {
+        "id": "Martini",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1231,9 +1411,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Mead": 2
-    }
+    "products": [
+      {
+        "id": "Mead",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1259,9 +1442,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Mojito": 4
-    }
+    "products": [
+      {
+        "id": "Mojito",
+        "amount": 4
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1280,9 +1466,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Moonshine": 3
-    }
+    "products": [
+      {
+        "id": "Moonshine",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1297,9 +1486,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "NuclearCola": 5
-    }
+    "products": [
+      {
+        "id": "NuclearCola",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1317,9 +1509,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Patron": 10
-    }
+    "products": [
+      {
+        "id": "Patron",
+        "amount": 10
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1345,9 +1540,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Painkiller": 6
-    }
+    "products": [
+      {
+        "id": "Painkiller",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1370,9 +1568,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "PinaColada": 6
-    }
+    "products": [
+      {
+        "id": "PinaColada",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1391,9 +1592,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Posca": 3
-    }
+    "products": [
+      {
+        "id": "Posca",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1408,9 +1612,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "RedMead": 2
-    }
+    "products": [
+      {
+        "id": "RedMead",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1425,9 +1632,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Rewriter": 2
-    }
+    "products": [
+      {
+        "id": "Rewriter",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1442,9 +1652,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "RootBeerFloat": 3
-    }
+    "products": [
+      {
+        "id": "RootBeerFloat",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1459,9 +1672,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "RoyRogers": 3
-    }
+    "products": [
+      {
+        "id": "RoyRogers",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1480,9 +1696,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Rubberneck": 4
-    }
+    "products": [
+      {
+        "id": "Rubberneck",
+        "amount": 4
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1497,9 +1716,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Sbiten": 2
-    }
+    "products": [
+      {
+        "id": "Sbiten",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1517,9 +1739,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ScrewdriverCocktail": 3
-    }
+    "products": [
+      {
+        "id": "ScrewdriverCocktail",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1534,9 +1759,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ShirleyTemple": 3
-    }
+    "products": [
+      {
+        "id": "ShirleyTemple",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1555,9 +1783,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Silencer": 3
-    }
+    "products": [
+      {
+        "id": "Silencer",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1572,9 +1803,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "SnowWhite": 3
-    }
+    "products": [
+      {
+        "id": "SnowWhite",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1589,9 +1823,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "SoyLatte": 2
-    }
+    "products": [
+      {
+        "id": "SoyLatte",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1606,9 +1843,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "Starkist": 3
-    }
+    "products": [
+      {
+        "id": "Starkist",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1627,9 +1867,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "SuiDream": 3
-    }
+    "products": [
+      {
+        "id": "SuiDream",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1644,9 +1887,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "SyndicateBomb": 2
-    }
+    "products": [
+      {
+        "id": "SyndicateBomb",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1661,9 +1907,12 @@
         "amount": 5
       }
     ],
-    "products": {
-      "Tea": 6
-    }
+    "products": [
+      {
+        "id": "Tea",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1678,9 +1927,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "TequilaSunrise": 3
-    }
+    "products": [
+      {
+        "id": "TequilaSunrise",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1695,9 +1947,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "ThreeMileIsland": 10
-    }
+    "products": [
+      {
+        "id": "ThreeMileIsland",
+        "amount": 10
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1719,9 +1974,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "ToxinsSpecial": 5
-    }
+    "products": [
+      {
+        "id": "ToxinsSpecial",
+        "amount": 5
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1739,9 +1997,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "VodkaMartini": 3
-    }
+    "products": [
+      {
+        "id": "VodkaMartini",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1756,9 +2017,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "VodkaRedBool": 3
-    }
+    "products": [
+      {
+        "id": "VodkaRedBool",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1773,9 +2037,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "VodkaTonic": 3
-    }
+    "products": [
+      {
+        "id": "VodkaTonic",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1790,9 +2057,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "WhiskeyCola": 3
-    }
+    "products": [
+      {
+        "id": "WhiskeyCola",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1811,9 +2081,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "WatermelonWakeup": 3
-    }
+    "products": [
+      {
+        "id": "WatermelonWakeup",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1828,9 +2101,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "WhiteRussian": 3
-    }
+    "products": [
+      {
+        "id": "WhiteRussian",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1845,9 +2121,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "WhiskeySoda": 3
-    }
+    "products": [
+      {
+        "id": "WhiskeySoda",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1862,9 +2141,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "XenoBasher": 3
-    }
+    "products": [
+      {
+        "id": "XenoBasher",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1880,9 +2162,12 @@
         "amount": 2
       }
     ],
-    "products": {
-      "HotRamen": 6
-    }
+    "products": [
+      {
+        "id": "HotRamen",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1897,9 +2182,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Pilk": 2
-    }
+    "products": [
+      {
+        "id": "Pilk",
+        "amount": 2
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1922,9 +2210,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "TheMartinez": 6
-    }
+    "products": [
+      {
+        "id": "TheMartinez",
+        "amount": 6
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1939,10 +2230,16 @@
         "amount": 3
       }
     ],
-    "products": {
-      "Hydrogen": 2,
-      "Oxygen": 1
-    }
+    "products": [
+      {
+        "id": "Hydrogen",
+        "amount": 2
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1957,9 +2254,12 @@
         "amount": 1
       }
     ],
-    "products": {
-      "WhiteGilgamesh": 3
-    }
+    "products": [
+      {
+        "id": "WhiteGilgamesh",
+        "amount": 3
+      }
+    ]
   },
   {
     "type": "reaction",
@@ -1982,8 +2282,11 @@
         "amount": 1
       }
     ],
-    "products": {
-      "Cola": 4
-    }
+    "products": [
+      {
+        "id": "Cola",
+        "amount": 4
+      }
+    ]
   }
 ]

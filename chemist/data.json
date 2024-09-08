@@ -18,7 +18,8 @@
     ],
     "products": [
       {
-        "id": "Dylovene"
+        "id": "Dylovene",
+        "amount": 3
       }
     ]
   },
@@ -41,7 +42,8 @@
     ],
     "products": [
       {
-        "id": "Ethylredoxrazine"
+        "id": "Ethylredoxrazine",
+        "amount": 3
       }
     ]
   },
@@ -64,7 +66,8 @@
     ],
     "products": [
       {
-        "id": "Cryptobiolin"
+        "id": "Cryptobiolin",
+        "amount": 3
       }
     ]
   },
@@ -83,7 +86,8 @@
     ],
     "products": [
       {
-        "id": "Arithrazine"
+        "id": "Arithrazine",
+        "amount": 2
       }
     ]
   },
@@ -102,7 +106,8 @@
     ],
     "products": [
       {
-        "id": "Bicaridine"
+        "id": "Bicaridine",
+        "amount": 2
       }
     ]
   },
@@ -125,7 +130,8 @@
     ],
     "products": [
       {
-        "id": "Cryoxadone"
+        "id": "Cryoxadone",
+        "amount": 3
       }
     ]
   },
@@ -144,7 +150,8 @@
     ],
     "products": [
       {
-        "id": "Doxarubixadone"
+        "id": "Doxarubixadone",
+        "amount": 2
       }
     ]
   },
@@ -171,7 +178,8 @@
     ],
     "products": [
       {
-        "id": "Epinephrine"
+        "id": "Epinephrine",
+        "amount": 4
       }
     ]
   },
@@ -194,7 +202,8 @@
     ],
     "products": [
       {
-        "id": "Dermaline"
+        "id": "Dermaline",
+        "amount": 3
       }
     ]
   },
@@ -214,7 +223,8 @@
     ],
     "products": [
       {
-        "id": "Dexalin"
+        "id": "Dexalin",
+        "amount": 3
       }
     ]
   },
@@ -237,7 +247,8 @@
     ],
     "products": [
       {
-        "id": "DexalinPlus"
+        "id": "DexalinPlus",
+        "amount": 3
       }
     ]
   },
@@ -256,7 +267,8 @@
     ],
     "products": [
       {
-        "id": "Hyronalin"
+        "id": "Hyronalin",
+        "amount": 2
       }
     ]
   },
@@ -279,7 +291,8 @@
     ],
     "products": [
       {
-        "id": "Inaprovaline"
+        "id": "Inaprovaline",
+        "amount": 3
       }
     ]
   },
@@ -302,7 +315,8 @@
     ],
     "products": [
       {
-        "id": "Ipecac"
+        "id": "Ipecac",
+        "amount": 2
       }
     ]
   },
@@ -325,7 +339,8 @@
     ],
     "products": [
       {
-        "id": "TranexamicAcid"
+        "id": "TranexamicAcid",
+        "amount": 3
       }
     ]
   },
@@ -344,7 +359,8 @@
     ],
     "products": [
       {
-        "id": "Kelotane"
+        "id": "Kelotane",
+        "amount": 2
       }
     ]
   },
@@ -368,7 +384,8 @@
     ],
     "products": [
       {
-        "id": "Leporazine"
+        "id": "Leporazine",
+        "amount": 2
       }
     ]
   },
@@ -391,7 +408,8 @@
     ],
     "products": [
       {
-        "id": "Phalanximine"
+        "id": "Phalanximine",
+        "amount": 3
       }
     ]
   },
@@ -414,7 +432,8 @@
     ],
     "products": [
       {
-        "id": "Ambuzol"
+        "id": "Ambuzol",
+        "amount": 4
       }
     ]
   },
@@ -433,7 +452,8 @@
     ],
     "products": [
       {
-        "id": "AmbuzolPlus"
+        "id": "AmbuzolPlus",
+        "amount": 10
       }
     ]
   },
@@ -456,7 +476,8 @@
     ],
     "products": [
       {
-        "id": "Synaptizine"
+        "id": "Synaptizine",
+        "amount": 3
       }
     ]
   },
@@ -475,7 +496,8 @@
     ],
     "products": [
       {
-        "id": "Tricordrazine"
+        "id": "Tricordrazine",
+        "amount": 2
       }
     ]
   },
@@ -494,7 +516,8 @@
     ],
     "products": [
       {
-        "id": "HeartbreakerToxin"
+        "id": "HeartbreakerToxin",
+        "amount": 2
       }
     ]
   },
@@ -518,7 +541,8 @@
     ],
     "products": [
       {
-        "id": "Impedrezene"
+        "id": "Impedrezene",
+        "amount": 1
       }
     ]
   },
@@ -542,7 +566,8 @@
     ],
     "products": [
       {
-        "id": "Lexorin"
+        "id": "Lexorin",
+        "amount": 2
       }
     ]
   },
@@ -565,7 +590,8 @@
     ],
     "products": [
       {
-        "id": "Lipozine"
+        "id": "Lipozine",
+        "amount": 3
       }
     ]
   },
@@ -588,7 +614,8 @@
     ],
     "products": [
       {
-        "id": "Mannitol"
+        "id": "Mannitol",
+        "amount": 3
       }
     ]
   },
@@ -612,7 +639,8 @@
     ],
     "products": [
       {
-        "id": "MindbreakerToxin"
+        "id": "MindbreakerToxin",
+        "amount": 3
       }
     ]
   },
@@ -635,7 +663,8 @@
     ],
     "products": [
       {
-        "id": "SpaceDrugs"
+        "id": "SpaceDrugs",
+        "amount": 3
       }
     ]
   },
@@ -655,7 +684,8 @@
     ],
     "products": [
       {
-        "id": "Ultravasculine"
+        "id": "Ultravasculine",
+        "amount": 2
       }
     ]
   },
@@ -678,7 +708,8 @@
     ],
     "products": [
       {
-        "id": "Oculine"
+        "id": "Oculine",
+        "amount": 4
       }
     ]
   },
@@ -697,7 +728,8 @@
     ],
     "products": [
       {
-        "id": "Siderlac"
+        "id": "Siderlac",
+        "amount": 2
       }
     ]
   },
@@ -720,7 +752,8 @@
     ],
     "products": [
       {
-        "id": "Cognizine"
+        "id": "Cognizine",
+        "amount": 1
       }
     ]
   },
@@ -753,7 +786,8 @@
     ],
     "products": [
       {
-        "id": "Sigynate"
+        "id": "Sigynate",
+        "amount": 4
       }
     ]
   },
@@ -772,7 +806,8 @@
     ],
     "products": [
       {
-        "id": "Saline"
+        "id": "Saline",
+        "amount": 5
       }
     ]
   },
@@ -793,7 +828,8 @@
     ],
     "products": [
       {
-        "id": "Lacerinol"
+        "id": "Lacerinol",
+        "amount": 2
       }
     ]
   },
@@ -814,7 +850,8 @@
     ],
     "products": [
       {
-        "id": "Puncturase"
+        "id": "Puncturase",
+        "amount": 2
       }
     ]
   },
@@ -838,7 +875,8 @@
     ],
     "products": [
       {
-        "id": "Bruizine"
+        "id": "Bruizine",
+        "amount": 2
       }
     ]
   },
@@ -858,7 +896,8 @@
     ],
     "products": [
       {
-        "id": "Razorium"
+        "id": "Razorium",
+        "amount": 1
       }
     ]
   },
@@ -878,7 +917,8 @@
     ],
     "products": [
       {
-        "id": "Razorium"
+        "id": "Razorium",
+        "amount": 1
       }
     ]
   },
@@ -898,7 +938,8 @@
     ],
     "products": [
       {
-        "id": "Razorium"
+        "id": "Razorium",
+        "amount": 1
       }
     ]
   },
@@ -918,7 +959,8 @@
     ],
     "products": [
       {
-        "id": "Razorium"
+        "id": "Razorium",
+        "amount": 1
       }
     ]
   },
@@ -938,7 +980,8 @@
     ],
     "products": [
       {
-        "id": "Razorium"
+        "id": "Razorium",
+        "amount": 1
       }
     ]
   },
@@ -958,7 +1001,8 @@
     ],
     "products": [
       {
-        "id": "Razorium"
+        "id": "Razorium",
+        "amount": 1
       }
     ]
   },
@@ -991,7 +1035,8 @@
     ],
     "products": [
       {
-        "id": "Diphenhydramine"
+        "id": "Diphenhydramine",
+        "amount": 3
       }
     ]
   },
@@ -1016,7 +1061,8 @@
     ],
     "products": [
       {
-        "id": "Pyrazine"
+        "id": "Pyrazine",
+        "amount": 3
       }
     ]
   },
@@ -1041,7 +1087,8 @@
     ],
     "products": [
       {
-        "id": "Insuzine"
+        "id": "Insuzine",
+        "amount": 3
       }
     ]
   },
@@ -1065,7 +1112,8 @@
     ],
     "products": [
       {
-        "id": "Opporozidone"
+        "id": "Opporozidone",
+        "amount": 3
       }
     ]
   },
@@ -1090,7 +1138,8 @@
     ],
     "products": [
       {
-        "id": "Necrosol"
+        "id": "Necrosol",
+        "amount": 2
       }
     ]
   },
@@ -1114,7 +1163,8 @@
     ],
     "products": [
       {
-        "id": "Aloxadone"
+        "id": "Aloxadone",
+        "amount": 4
       }
     ]
   },
@@ -1138,7 +1188,8 @@
     ],
     "products": [
       {
-        "id": "Psicodine"
+        "id": "Psicodine",
+        "amount": 4
       }
     ]
   },
@@ -1161,7 +1212,8 @@
     ],
     "products": [
       {
-        "id": "Lipolicide"
+        "id": "Lipolicide",
+        "amount": 3
       }
     ]
   },
@@ -1189,7 +1241,8 @@
     ],
     "products": [
       {
-        "id": "Happiness"
+        "id": "Happiness",
+        "amount": 4
       }
     ]
   },
@@ -1208,7 +1261,8 @@
     ],
     "products": [
       {
-        "id": "PotassiumIodide"
+        "id": "PotassiumIodide",
+        "amount": 2
       }
     ]
   },
@@ -1239,7 +1293,327 @@
     ],
     "products": [
       {
-        "id": "Haloperidol"
+        "id": "Haloperidol",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Ammonia",
+    "reactants": [
+      {
+        "id": "Hydrogen",
+        "amount": 3
+      },
+      {
+        "id": "Nitrogen",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Ammonia",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Diethylamine",
+    "reactants": [
+      {
+        "id": "Ammonia",
+        "amount": 1
+      },
+      {
+        "id": "Ethanol",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Diethylamine",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Phenol",
+    "reactants": [
+      {
+        "id": "Hydroxide",
+        "amount": 1
+      },
+      {
+        "id": "Benzene",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Phenol",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Acetone",
+    "reactants": [
+      {
+        "id": "Oil",
+        "amount": 1
+      },
+      {
+        "id": "WeldingFuel",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Acetone",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "SulfuricAcid",
+    "reactants": [
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      },
+      {
+        "id": "Sulfur",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 2
+      }
+    ],
+    "products": [
+      {
+        "id": "SulfuricAcid",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "TableSalt",
+    "minTemp": 370,
+    "reactants": [
+      {
+        "id": "Chlorine",
+        "amount": 1
+      },
+      {
+        "id": "Sodium",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "TableSalt",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "UnstableMutagen",
+    "reactants": [
+      {
+        "id": "Radium",
+        "amount": 1
+      },
+      {
+        "id": "Phosphorus",
+        "amount": 1
+      },
+      {
+        "id": "Chlorine",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "UnstableMutagen",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Oil",
+    "reactants": [
+      {
+        "id": "WeldingFuel",
+        "amount": 1
+      },
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Oil",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Ephedrine",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Oil",
+        "amount": 1
+      },
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      },
+      {
+        "id": "Sugar",
+        "amount": 1
+      },
+      {
+        "id": "Diethylamine",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Ephedrine",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "SodiumCarbonate",
+    "impact": "Medium",
+    "reactants": [
+      {
+        "id": "Ammonia",
+        "amount": 1
+      },
+      {
+        "id": "TableSalt",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      },
+      {
+        "id": "Oxygen",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "SodiumCarbonate",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "Benzene",
+    "minTemp": 310,
+    "reactants": [
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      },
+      {
+        "id": "Carbon",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Benzene",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "minTemp": 310,
+    "id": "Hydroxide",
+    "priority": -1,
+    "reactants": [
+      {
+        "id": "Oxygen",
+        "amount": 1
+      },
+      {
+        "id": "Hydrogen",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Hydroxide",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "SodiumHydroxide",
+    "reactants": [
+      {
+        "id": "Hydroxide",
+        "amount": 1
+      },
+      {
+        "id": "Sodium",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "SodiumHydroxide",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "minTemp": 310,
+    "id": "Fersilicite",
+    "reactants": [
+      {
+        "id": "Iron",
+        "amount": 1
+      },
+      {
+        "id": "Silicon",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Fersilicite",
+        "amount": 2
       }
     ]
   }
