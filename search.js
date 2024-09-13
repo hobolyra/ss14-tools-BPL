@@ -38,6 +38,13 @@ function renderSearchResults(results, renderOptions) {
             titleContainer.appendChild(requiredMixerCategories)
         }
 
+        if (item.minTemp) {
+            const temp = document.createElement('div')
+            temp.className = 'result-item-temp'
+            temp.textContent = `>= ${item.minTemp}K`
+            titleContainer.appendChild(temp)
+        }
+
         const reactants = renderReactants(item.reactants)
         div.appendChild(titleContainer)
         div.appendChild(reactants)
