@@ -1,5 +1,10 @@
 {
-  "dependencies": {
-    "js-yaml": "^4.1.0"
+  "scripts": {
+    "serve": "cd ../.. && http-server -c-1",
+    "fetch": "node fetch-files.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "http-server": "^14.1.1"
   }
 }

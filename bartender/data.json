@@ -169,7 +169,7 @@
         "amount": 1
       },
       {
-        "id": "IrishCarBomb",
+        "id": "IrishSlammer",
         "amount": 1
       },
       {
@@ -194,13 +194,13 @@
       },
       {
         "id": "VodkaRedBool",
-        "amount": 2
+        "amount": 3
       }
     ],
     "products": [
       {
         "id": "BudgetInsulsDrink",
-        "amount": 3
+        "amount": 4
       }
     ]
   },
@@ -1106,7 +1106,7 @@
         "amount": 1
       },
       {
-        "id": "IrishCarBomb",
+        "id": "IrishSlammer",
         "amount": 1
       }
     ],
@@ -1119,7 +1119,7 @@
   },
   {
     "type": "reaction",
-    "id": "IrishCarBomb",
+    "id": "IrishSlammer",
     "reactants": [
       {
         "id": "Ale",
@@ -1132,7 +1132,7 @@
     ],
     "products": [
       {
-        "id": "IrishCarBomb",
+        "id": "IrishSlammer",
         "amount": 2
       }
     ]
@@ -1495,6 +1495,38 @@
   },
   {
     "type": "reaction",
+    "id": "NuclearColaBreakdown",
+    "source": true,
+    "requiredMixerCategories": [
+      "Centrifuge"
+    ],
+    "reactants": [
+      {
+        "id": "NuclearCola",
+        "amount": 10
+      }
+    ],
+    "products": [
+      {
+        "id": "Ipecac",
+        "amount": 2
+      },
+      {
+        "id": "Water",
+        "amount": 2
+      },
+      {
+        "id": "Sugar",
+        "amount": 2
+      },
+      {
+        "id": "Uranium",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "type": "reaction",
     "id": "Patron",
     "requiredMixerCategories": [
       "Shake"
@@ -1806,7 +1838,30 @@
     "products": [
       {
         "id": "SnowWhite",
-        "amount": 3
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "SodaWater",
+    "requiredMixerCategories": [
+      "Shake"
+    ],
+    "reactants": [
+      {
+        "id": "Water",
+        "amount": 5
+      },
+      {
+        "id": "CarbonDioxide",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "SodaWater",
+        "amount": 6
       }
     ]
   },
@@ -2094,7 +2149,7 @@
     "reactants": [
       {
         "id": "BlackRussian",
-        "amount": 2
+        "amount": 1
       },
       {
         "id": "Cream",
@@ -2104,7 +2159,7 @@
     "products": [
       {
         "id": "WhiteRussian",
-        "amount": 3
+        "amount": 2
       }
     ]
   },
@@ -2219,6 +2274,29 @@
   },
   {
     "type": "reaction",
+    "id": "Vodka",
+    "requiredMixerCategories": [
+      "Stir"
+    ],
+    "reactants": [
+      {
+        "id": "Ethanol",
+        "amount": 1
+      },
+      {
+        "id": "Water",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "Vodka",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "type": "reaction",
     "id": "WaterBreakdown",
     "source": true,
     "requiredMixerCategories": [
@@ -2285,6 +2363,30 @@
     "products": [
       {
         "id": "Cola",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "type": "reaction",
+    "id": "ZombieCocktail",
+    "reactants": [
+      {
+        "id": "Rum",
+        "amount": 2
+      },
+      {
+        "id": "Grenadine",
+        "amount": 1
+      },
+      {
+        "id": "ZombieBlood",
+        "amount": 1
+      }
+    ],
+    "products": [
+      {
+        "id": "ZombieCocktail",
         "amount": 4
       }
     ]
