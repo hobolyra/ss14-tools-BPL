@@ -14,21 +14,21 @@ cd scripts
 npm install
 ```
 
-2. Fetch the latest data files from the SS14 repository:
-```bash
-node fetch-files.js
-```
-
-3. Start the local server:
+2. Start the local server:
 ```bash
 ./scripts/serve.sh
 ```
 
 The web interface will be available at `http://localhost:8080`
 
+
 ## Data sources
 
-Data is fetched directly from the SS14 repository. The following files are used:
+Data is fetched directly from the SS14 repository. 
+
+Run `./scripts/fetch-files.js` to fetch and process the latest data files.
+
+The following files are used:
 
 - [chemicals.yml](https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/chemicals.yml)
 - [medicine.yml](https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/medicine.yml)
