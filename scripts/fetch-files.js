@@ -15,17 +15,42 @@ main()
 async function main() {
   // Process chemicals.yml
   const chemicalsUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/chemicals.yml';
+  const medicineReagentsUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Reagents/medicine.yml';
+
+  
+
   const chemicalsYaml = await get(chemicalsUrl)
   const chemicalsData = yamlToJson(chemicalsYaml);
   // We only care about chemicals that contribute to medicine.
   const filteredChemicals = filterArrayById(chemicalsData, ['Ammonia', 'Diethylamine', 'Phenol', 'Acetone', 'SulfuricAcid', 'TableSalt', 'UnstableMutagen', 'Oil', 'Ephedrine', 'SodiumCarbonate', 'Benzene', 'Hydroxide', 'SodiumHydroxide', 'Fersilicite']);
+
+  // Process medicine reagents
+  const medicineReagentsYaml = await get(medicineReagentsUrl)
+  const medicineReagentsData = yamlToJson(medicineReagentsYaml);
 
   // Process medicine.yml
   const medicineUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/medicine.yml';
   const medicineYaml = await get(medicineUrl)
   const medicineData = yamlToJson(medicineYaml);
 
-  const chemistData = medicineData.concat(filteredChemicals)
+  // Combine medicine data with reagents data
+  const medicineWithEffects = medicineData.map(recipe => {
+    // Find matching reagent data for each product
+    const productsWithEffects = recipe.products ? recipe.products.map(product => {
+      const reagentData = medicineReagentsData.find(r => r.id === product.id);
+      return {
+        ...product,
+        reagentData: reagentData
+      };
+    }) : [];
+
+    return {
+      ...recipe,
+      products: productsWithEffects
+    };
+  });
+
+  const chemistData = medicineWithEffects.concat(filteredChemicals)
   const chemistJsonPath = path.join(scriptDir, '../chemist/data.json');
   writeJsonFile(chemistData, chemistJsonPath);
 
@@ -46,14 +71,13 @@ async function get(url) {
 
 function yamlToJson(yamlContent) {
   function convertToArray(obj) {
+    if (!obj) return [];
     return Object.keys(obj).map(key => ({
       id: key,
       ...obj[key]
     }));
   }
 
-
-  // Obj has the form {"key": 2}.
   function convertProductsToArray(obj) {
     if (!obj) {
       return []
@@ -63,6 +87,7 @@ function yamlToJson(yamlContent) {
       amount: obj[key]
     }));
   }
+
   // Need this stuff to handle custom (!) tags in yaml.
   // From https://github.com/nodeca/js-yaml/blob/0d3ca7a27b03a6c974790a30a89e456007d62976/examples/handle_unknown_types.js
   class CustomTag {
@@ -73,7 +98,6 @@ function yamlToJson(yamlContent) {
   }
 
   const tags = ['scalar', 'sequence', 'mapping'].map(function (kind) {
-    // first argument here is a prefix, so this type will handle anything starting with !
     return new yaml.Type('!', {
       kind: kind,
       multi: true,
@@ -93,14 +117,75 @@ function yamlToJson(yamlContent) {
 
   const data = yaml.load(yamlContent, {schema: schema});
 
+  // Check if this is reagent data (has metabolisms) or recipe data (has reactants/products)
+  const isReagentData = data.some(entry => entry.metabolisms);
+  
+  if (isReagentData) {
+    return data.map(cleanReagentData);
+  }
+
+  // Process as recipe data
   const cleanedData = data.map(entry => {
     return {
-      ...entry, reactants: convertToArray(entry.reactants), products: convertProductsToArray(entry.products)
+      ...entry,
+      reactants: convertToArray(entry.reactants),
+      products: convertProductsToArray(entry.products)
     };
   });
 
-  return cleanedData
+  return cleanedData;
 }
+
+function cleanReagentData(reagent) {
+    // Keep only the essential fields
+    const { id, metabolisms, plantMetabolism, worksOnTheDead } = reagent;
+    const cleaned = { id };
+    
+    if (metabolisms) {
+        // Clean up metabolisms by removing !type: prefix from effects
+        const cleanedMetabolisms = {};
+        Object.entries(metabolisms).forEach(([key, value]) => {
+            if (value.effects) {
+                cleanedMetabolisms[key] = {
+                    ...value,
+                    effects: value.effects.map(effect => {
+                        const cleanedEffect = {
+                            ...effect,
+                            type: effect.type.replace('!type:', '')
+                        };
+                        
+                        // Clean conditions if they exist
+                        if (effect.data?.conditions) {
+                            cleanedEffect.data = {
+                                ...effect.data,
+                                conditions: effect.data.conditions.map(condition => ({
+                                    ...condition,
+                                    type: condition.type.replace('!type:', '')
+                                }))
+                            };
+                        }
+                        
+                        return cleanedEffect;
+                    })
+                };
+            } else {
+                cleanedMetabolisms[key] = value;
+            }
+        });
+        cleaned.metabolisms = cleanedMetabolisms;
+    }
+    
+    if (plantMetabolism) {
+        // Clean up plantMetabolism by removing !type: prefix
+        cleaned.plantMetabolism = plantMetabolism.map(effect => ({
+            ...effect,
+            type: effect.type.replace('!type:', '')
+        }));
+    }
+    if (worksOnTheDead) cleaned.worksOnTheDead = worksOnTheDead;
+    
+    return cleaned;
+  }
 
 function filterArrayById(array, keys) {
   return array.filter(item => keys.includes(item.id));
