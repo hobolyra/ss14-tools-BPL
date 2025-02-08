@@ -2,16 +2,117 @@
 
 
 function renderReactants(reactants) {
-    const pluralizeUnits = (amount) => amount > 1 ? 'units' : 'unit'
     const ul = document.createElement('ul')
 
     reactants.forEach(r => {
         const li = document.createElement('li')
-        li.textContent = `${r.id}: ${r.amount} ${pluralizeUnits(r.amount)}`
+        li.textContent = `${r.amount} ${r.id}`
         ul.appendChild(li)
     });
 
     return ul
+}
+
+function formatEffect(effect) {
+    if (!effect.type || !effect.data) return '';
+    
+    const type = effect.type;
+    
+    switch (type) {
+        case 'HealthChange':
+            const damage = effect.data.damage || {};
+            let healingChanges = [];
+            let damageChanges = [];
+            
+            const processChanges = (entries) => {
+                Object.entries(entries).forEach(([key, value]) => {
+                    const colorClass = value < 0 ? 'healing-value' : 'damage-value';
+                    const valueSpan = document.createElement('span');
+                    valueSpan.className = colorClass;
+                    valueSpan.textContent = Math.abs(value);
+                    
+                    const change = `${valueSpan.outerHTML} ${key}`;
+                    value < 0 ? healingChanges.push(change) : damageChanges.push(change);
+                });
+            };
+
+            if (damage.types) processChanges(damage.types);
+            if (damage.groups) processChanges(damage.groups);
+
+            let result = [];
+            if (healingChanges.length > 0) result.push(`Heals ${healingChanges.join(', ')}`);
+            if (damageChanges.length > 0) result.push(`Damages ${damageChanges.join(', ')}`);
+            return result.join(', ');
+            
+        case 'GenericStatusEffect':
+            return `${effect.data.type || 'Apply'} ${effect.data.key}${effect.data.time ? ` for ${effect.data.time}s` : ''}`;
+            
+        case 'AdjustReagent':
+            return `Adjust ${effect.data.reagent} by ${effect.data.amount}`;
+            
+        case 'ChemVomit':
+            return `Cause vomiting${effect.data.probability ? ` (${effect.data.probability * 100}% chance)` : ''}`;
+            
+        case 'AdjustTemperature':
+            return `Change temperature by ${effect.data.amount}`;
+            
+        default:
+            return type;
+    }
+}
+
+function formatConditions(conditions) {
+    if (!conditions) return '';
+    
+    function formatRange(min, max, unit = '') {
+        const minText = min !== undefined ? `>= ${min}${unit}` : '';
+        const maxText = max !== undefined ? `<= ${max}${unit}` : '';
+        const connector = minText && maxText ? ' and ' : '';
+        return `${minText}${connector}${maxText}`;
+    }
+    
+    return conditions.map(condition => {
+        const type = condition.type;
+        const data = condition.data;
+        
+        switch (type) {
+            case 'ReagentThreshold':
+                const reagentText = data.reagent ? `${data.reagent} ` : 'amount';
+                return `when ${reagentText} ${formatRange(data.min, data.max)}`;
+
+            case 'Temperature':
+                return `at temperature ${formatRange(data.min, data.max, 'K')}`;
+
+            case 'MobStateCondition':
+                return `when ${data.mobstate}`;
+
+            case 'TotalDamage':
+                return `when total damage ${formatRange(data.min, data.max)}`;
+
+            default:
+                return type;
+        }
+    }).join(' and ');
+}
+
+function renderMetabolismEffects(metabolism) {
+    const div = document.createElement('div');
+    div.className = 'metabolism-effects';
+    
+    if (metabolism.effects) {
+        metabolism.effects.forEach(effect => {
+            const effectDiv = document.createElement('div');
+            effectDiv.className = 'effect';
+            
+            const effectText = formatEffect(effect);
+            const conditions = formatConditions(effect.data?.conditions);
+            
+            effectDiv.innerHTML = effectText + (conditions ? ` ${conditions}` : '');
+            div.appendChild(effectDiv);
+        });
+    }
+    
+    return div;
 }
 
 function renderSearchResults(results, renderOptions) {
@@ -50,11 +151,36 @@ function renderSearchResults(results, renderOptions) {
         div.appendChild(reactants)
 
         if (renderOptions.includeOutputProduct) {
-            const productOutputString = item.products.map(product => `${product.amount} ${product.id}`).join(" ")
-            const product = document.createElement("div")
-            product.className = 'result-item-product'
-            product.textContent = `Output: ${productOutputString}`
-            div.appendChild(product);
+            const productsContainer = document.createElement('div')
+            productsContainer.className = 'result-item-products'
+
+            item.products.forEach(product => {
+                const productDiv = document.createElement('div')
+                productDiv.className = 'result-item-product'
+                
+                const productHeader = document.createElement('div')
+                productHeader.className = 'product-header'
+                productHeader.textContent = `Output: ${product.amount} ${product.id}`
+                productDiv.appendChild(productHeader)
+
+                if (product.reagentData) {
+                    if (product.reagentData.metabolisms) {
+                        Object.entries(product.reagentData.metabolisms).forEach(([key, value]) => {
+                            const metabolismDiv = document.createElement('div')
+                            metabolismDiv.className = 'metabolism-container'
+                            
+                            const effectsDiv = renderMetabolismEffects(value)
+                            metabolismDiv.appendChild(effectsDiv)
+                            
+                            productDiv.appendChild(metabolismDiv)
+                        })
+                    }
+                }
+
+                productsContainer.appendChild(productDiv)
+            })
+
+            div.appendChild(productsContainer)
         }
         resultsContainer.appendChild(div)
     });
@@ -62,7 +188,6 @@ function renderSearchResults(results, renderOptions) {
     if (results.length === 0) {
         resultsContainer.innerHTML = '<strong>No results found for search</strong>';
     }
-
 }
 
 function runSearch(fuse, data, renderOptions, searchText) {
