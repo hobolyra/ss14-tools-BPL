@@ -194,7 +194,7 @@ function filterArrayById(array, keys) {
 // Helper to write JSON data to file
 function writeJsonFile(jsonObject, filePath) {
   console.log("writing to " + filePath)
-  fs.writeFileSync(filePath, JSON.stringify(jsonObject, null, 2));
+  fs.writeFileSync(filePath, JSON.stringify(jsonObject));
 }
 
 
