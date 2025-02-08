@@ -67,7 +67,7 @@ input[type="text"]:focus {
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .result-item-product {
@@ -80,7 +80,6 @@ input[type="text"]:focus {
 
 .product-header {
     font-weight: bold;
-    color: #2c3e50;
     margin-bottom: 8px;
 }
 
@@ -103,7 +102,6 @@ input[type="text"]:focus {
 
 .effect {
     padding: 4px 0;
-    color: #495057;
     position: relative;
 }
 
@@ -133,13 +131,11 @@ input[type="text"]:focus {
 
 .result-item h3 {
     margin: 0;
-    color: #1a365d;
 }
 
 .result-item li {
     list-style: none;
     padding: 3px 0;
-    color: #4a5568;
 }
 
 .healing-value {

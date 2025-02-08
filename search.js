@@ -2,12 +2,11 @@
 
 
 function renderReactants(reactants) {
-    const pluralizeUnits = (amount) => amount > 1 ? 'units' : 'unit'
     const ul = document.createElement('ul')
 
     reactants.forEach(r => {
         const li = document.createElement('li')
-        li.textContent = `${r.id}: ${r.amount} ${pluralizeUnits(r.amount)}`
+        li.textContent = `${r.amount} ${r.id}`
         ul.appendChild(li)
     });
 
