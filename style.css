@@ -67,7 +67,7 @@ input[type="text"]:focus {
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .result-item-product {
