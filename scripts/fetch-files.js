@@ -29,7 +29,7 @@ async function main() {
   const medicineReagentsData = yamlToJson(medicineReagentsYaml);
 
   // Process medicine.yml
-  const medicineUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/medicine.yml';
+  const medicineUrl = 'https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Prototypes/Recipes/Reactions/medicine.yml';
   const medicineYaml = await get(medicineUrl)
   const medicineData = yamlToJson(medicineYaml);
 
@@ -55,11 +55,19 @@ async function main() {
   writeJsonFile(chemistData, chemistJsonPath);
 
   // Process drinks.yml
-  const drinksUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/drinks.yml';
+  const drinksUrl = 'https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Prototypes/Recipes/Reactions/drinks.yml';
+  const drinksDeltaUrl = 'https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Prototypes/DeltaV/Recipes/Reactions/drinks.yml';
   const drinksYaml = await get(drinksUrl)
   const drinksData = yamlToJson(drinksYaml);
+  
+  // Process delta drinks
+  const drinkDeltaYaml = await get(drinksDeltaUrl)
+  const drinkDeltaData = yamlToJson(drinkDeltaYaml);
+  
+   // Combine drinks data
+  const drinksDataMerge = drinksData.concat(drinkDeltaData)
   const drinksJsonPath = path.join(scriptDir, '../bartender/data.json');
-  writeJsonFile(drinksData, drinksJsonPath);
+  writeJsonFile(drinksDataMerge, drinksJsonPath);
 }
 
 async function get(url) {
