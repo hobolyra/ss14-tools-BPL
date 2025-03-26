@@ -1,6 +1,6 @@
 # SS14 Tools
 
-https://aussieguy0.github.io/ss14-tools/bartender/ 
+https://aussieguy0.github.io/testrecipies/bartender/ 
 
 A collection of web-based tools for Space Station 14. Currently, it includes drink and chemical recipes.
 
