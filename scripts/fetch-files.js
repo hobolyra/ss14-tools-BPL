@@ -14,8 +14,8 @@ main()
 
 async function main() {
   // Process chemicals.yml
-  const chemicalsUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Recipes/Reactions/chemicals.yml';
-  const medicineReagentsUrl = 'https://raw.githubusercontent.com/space-wizards/space-station-14/master/Resources/Prototypes/Reagents/medicine.yml';
+  const chemicalsUrl = 'https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Prototypes/Recipes/Reactions/chemicals.yml';
+  const medicineReagentsUrl = 'https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Prototypes/Reagents/medicine.yml';
 
   
 
